@@ -1,0 +1,82 @@
+/*BORDERS*/
+
+.borderedSelectionBox{
+    border:thin;
+    border-color: black;
+    border-style: solid;
+    width: 285px;
+}
+
+.dataBorder{
+    border-top: thin;
+    
+    border-top-color: black;
+    border-top-style: solid;
+    width: 285px;
+}
+
+
+
+/*HEADERS*/
+
+.headname{
+    min-height: 1px;
+    float: left;
+    width: 126px;
+}
+.headorder{
+    min-height: 1px;
+    float: left;
+    width: 54px;
+}
+.headletter{
+    min-height: 1px;
+    float: left;
+    width: 30px;
+    padding-left: 4px;
+}
+
+
+/*ROWS*/
+.row{
+    clear: both;
+    padding: 3px;
+}
+
+
+/*COLUMNS*/
+
+.col{
+    margin-top :4px;
+    float: left;
+    display: inline;
+    margin:0;
+    padding-right:3px;
+}
+
+.node-col{
+    width:120px;
+}
+
+.del-col{
+    width:80px;
+}
+
+.short-col{
+    width:65px;
+}
+
+.name input[type=text]{
+    width: 120px;
+    float: left;
+     
+   
+}
+.order input[type=text]{
+    float: left;
+    width: 50px;
+}
+.letter {
+    float: left;
+    width: 30px;
+}
